@@ -1,0 +1,59 @@
+{
+  "project_info": {
+    "project_number": "112449531905",
+    "firebase_url": "https://feedmeos-97d58.firebaseio.com",
+    "project_id": "feedmeos-97d58",
+    "storage_bucket": "feedmeos-97d58.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:112449531905:android:c744e841fa4caf62",
+        "android_client_info": {
+          "package_name": "com.ferit.neox.feedmeos"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "112449531905-t62qr95lepvbjq741bnnkvp4bjaagibe.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ferit.neox.feedmeos",
+            "certificate_hash": "6db7425dc1b8b542b13668d8aa3474ccf07e0af6"
+          }
+        },
+        {
+          "client_id": "112449531905-815n4umb5rmgo5sjp05b09i9gboquj44.apps.googleusercontent.com",
+          "client_type": 3
+        },
+        {
+          "client_id": "112449531905-815n4umb5rmgo5sjp05b09i9gboquj44.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7lD9c9HbHIOBOvKBibcQ-ev0Phot3EL4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "112449531905-815n4umb5rmgo5sjp05b09i9gboquj44.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,135 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:background="#EEEECF">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Add Title"
+        android:id="@+id/twAddTitle"
+        android:layout_marginTop="30dp"/>
+
+    <EditText
+        android:id="@+id/etAddTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/etAddAddress"
+        android:layout_toEndOf="@+id/twAddTitle" />
+
+    <TextView
+        android:id="@+id/twAddAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/twAddTitle"
+        android:layout_marginTop="30dp"
+        android:text="Add Address" />
+
+    <EditText
+        android:id="@+id/etAddAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/twAddAddress"
+        android:layout_alignBottom="@+id/twAddAddress"
+        android:layout_toEndOf="@+id/twAddAddress" />
+
+    <TextView
+        android:id="@+id/twAddCity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etAddAddress"
+        android:layout_marginTop="30dp"
+        android:text="Add City" />
+
+    <EditText
+        android:id="@+id/etAddCity"
+        android:layout_width="175dp"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/twAddCity"
+        android:layout_alignBottom="@+id/twAddCity"
+        android:layout_toEndOf="@+id/twAddCity" />
+
+    <TextView
+        android:id="@+id/twAddZIP"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/etAddCity"
+        android:layout_alignBottom="@+id/etAddCity"
+        android:layout_toEndOf="@+id/etAddCity"
+        android:text="Add ZIP"
+        android:layout_marginLeft="10dp" />
+
+    <EditText
+        android:id="@+id/etAddZIP"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/twAddZIP"
+        android:layout_alignBottom="@+id/twAddZIP"
+        android:layout_toEndOf="@+id/twAddZIP"
+        android:inputType="number"
+        android:maxLength="5"/>
+
+    <TextView
+        android:id="@+id/twAddDescription"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/etAddCity"
+        android:layout_marginTop="30dp"
+        android:text="Add Description" />
+
+    <EditText
+        android:id="@+id/etAddDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/twAddDescription"
+        android:layout_alignBottom="@+id/twAddDescription"
+        android:layout_toEndOf="@+id/twAddDescription"
+        />
+
+    <Button
+        android:id="@+id/btn1stImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etAddDescription"
+        android:layout_marginTop="30dp"
+        android:text="Add 1st image" />
+
+    <ImageView
+        android:id="@+id/iv1stImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignTop="@+id/btn1stImg"
+        android:layout_toStartOf="@+id/twAddZIP" />
+
+    <Button
+        android:id="@+id/btn2ndImg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn1stImg"
+        android:layout_marginTop="30dp"
+        android:text="Add 2nd image" />
+
+    <ImageView
+        android:id="@+id/iv2ndImg"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignEnd="@+id/etAddCity"
+        android:layout_alignTop="@+id/btn2ndImg" />
+
+    <Button
+        android:id="@+id/btnAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/btn2ndImg"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:text="Add" />
+
+
+</RelativeLayout>
+
+
